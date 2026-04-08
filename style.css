@@ -1,0 +1,16 @@
+
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+.aligndroite{text-align: right;}
+
+.bgimg{background-image:url(assets/Banner.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-position: center;}
+.card{border: 4px black solid;width: 300px;}
+.btn{border: solid; background-color: black;color: white;border-radius: 3px;}
+
+.mb{margin-top: 100px;}

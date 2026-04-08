@@ -14,3 +14,7 @@ box-sizing: border-box;}
 .btn{border: solid; background-color: black;color: white;border-radius: 3px;}
 
 .mb{margin-top: 100px;}
+
+.aligncenter{text-align: center;}
+.flex{display: flex; flex-wrap: wrap;}
+.spacearound{justify-content: space-around}

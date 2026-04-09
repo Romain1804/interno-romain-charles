@@ -1,20 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{padding: 0;
-margin: 0;
-box-sizing: border-box;}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
-.aligndroite{text-align: right;}
 
-.bgimg{background-image:url(assets/Banner.jpg); 
+
+.aligndroite {
+    text-align: right;
+}
+
+.bgimg {
+    background-image: url(assets/Banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
-    background-position: center;}
-.card{border: 4px black solid;width: 300px;}
-.btn{border: solid; background-color: black;color: white;border-radius: 3px;}
+    background-position: center;
+}
 
-.mb{margin-top: 100px;}
+.card {
+    border: 4px transparent solid;
+    border-radius: 20px;
+    width: 300px;
+}
 
-.aligncenter{text-align: center;}
-.flex{display: flex; flex-wrap: wrap;}
-.spacearound{justify-content: space-around}
+.btn {
+    border: solid;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.mb {
+    margin-top: 100px;
+}
+
+.txtcenter {
+    text-align: center;
+}
+/* flexbox */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spacearound {
+    justify-content: space-around
+}
+
+.gap8 {
+    gap: 8px;
+}
+
+.spacebetween {
+    justify-content: space-between;
+}
+
+.flexend {
+    align-content: flex-end;
+}
+
+.justifycenter {
+    justify-content: center;
+}
+
+.aligncenter {
+    align-items: center;
+}
+/* mise en page et alignement*/
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+/* couleur de fond */
+.bgimgpink {
+    background-color: #F4F0EC;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgimgwhite{background-color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+
+.bgblack{background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;}
+
+
+.pb40{padding-bottom:40px;}
+.pt40{padding-top: 40px;}
+
+.width{width: 45%;}
+
+.btnprojet{
+    border: solid;
+    background-color: #F4F0EC;
+    color: black;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+
+
+.colonne{flex-direction: column;}
+
+.w40{width: 100px;}
+
